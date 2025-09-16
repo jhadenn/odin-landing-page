@@ -140,6 +140,12 @@ nav {
     margin: 0 auto 15px;
 }
 
+.info-card p {
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 1.4;
+}
+
 .quote {
     background-color: #E5E7EB;
     padding: 100px 0;
@@ -164,6 +170,65 @@ nav {
     font-style: normal;
     align-self: flex-end;
 }
+
+.cta {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.cta-banner {
+    background-color:#3882F6 ;
+    width: 700px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}   
+
+.cta-text h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cta-text p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p{
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+
 
 
 
